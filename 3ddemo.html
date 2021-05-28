@@ -7,13 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link href="src/main.css" rel="stylesheet">
+    <link href="src/followyou.css" rel="stylesheet">
     <title>Chenli's portfolio</title>
 
 </head>
 
 <body>
+    <img style="width: 200px;" src="./src/images/avatar.jpeg" />
+    <div id="ball"></div>
+
     <!-- This example requires Tailwind CSS v2.0+ -->
-    <section class="py-12 overflow-hidden md:py-20 lg:py-36">
+    <div class="py-12 overflow-hidden md:py-20 lg:py-36">
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
 
@@ -24,11 +28,12 @@
                 <div id="textAnimation" class="font-serif  text-left sm:text-center text-4xl sm:text-6xl mt-4">
                     New&nbsp;&nbsp;Website&nbsp;&nbsp;is&nbsp;&nbsp;Coming&nbsp;&nbsp;Soon.</div>
                 <div class="max-w-3xl mx-auto text-left sm:text-center text-2xl leading-9 font-medium mt-4 ">
-                    <p>
+                    <p class="textme">
                         I craft strategy-based products by asking the right questions and understanding the problem. I
                         strive in
                         achieving a positive impact on any company or product I am working on.
                     </p>
+
                 </div>
                 <footer class="mt-4">
                     <div class="md:flex md:items-center md:justify-center">
@@ -53,23 +58,16 @@
                 </footer>
             </blockquote>
         </div>
-        </div>
-    </section>
-
-
-    <!--
-    <div>
-        <button id=btnWhite class="colorBtn-white"></button>
-        <button id=btnYellow class="colorBtn-yellow"></button>
-        <button id=btnGreen class="colorBtn-green"></button>
-        <button id=btnBlack class="colorBtn-black"></button>
     </div>
-    -->
+    </div>
 
 </body>
+
 <script src="src/index.js"></script>
 <script src="src/three.min.js"></script>
 <script src="src/pthree.js"></script>
+<script src="src/followyou.js"></script>
+
 
 
 </html>
